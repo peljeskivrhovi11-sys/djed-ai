@@ -6,7 +6,12 @@ import os
 app = FastAPI()
 
 # 🔐 API KEY iz Railway (NE upisuješ ručno!)
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+API_KEY = os.environ.get("GROQ_API_KEY")
+
+if not API_KEY:
+    raise ValueError("GROQ_API_KEY nije postavljen!")
+
+client = Groq(api_key=API_KEY)
 
 MODEL = "llama-3.3-70b-versatile"
 
