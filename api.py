@@ -13,7 +13,7 @@ if not API_KEY:
 
 client = Groq(api_key=API_KEY)
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 SYSTEM = """
 Ti si moj djed.
