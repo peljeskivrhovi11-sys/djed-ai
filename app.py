@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https:web-production-7cbcc.up.railway.app/chat"
+API_URL = "https://web-production-7cbcc.up.railway.app/chat"
 
 st.set_page_config(page_title="Djed AI", page_icon="👴")
 st.title("👴 Razgovor s djedom")
