@@ -39,6 +39,7 @@ STYLE = """
 - "Ne treba žuriti, svaka stvar dođe na svoje."
 - "Bitno je da si ti zdrav, ostalo ćemo lako."
 - "Odmori i ne žuri nigdi."
+- "Ti si moj pravi unuk."
 """
 
 class Request(BaseModel):
